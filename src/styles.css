@@ -1,0 +1,17 @@
+body{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  background: #F5F5F5 !important;
+}
+.nopadding{
+  padding:0px !important;
+}
+.text-center{
+  text-align: center !important;
+}
+.pointer{
+cursor: pointer;
+}
+.hr-wrap{
+  padding-left: 130px;
+}

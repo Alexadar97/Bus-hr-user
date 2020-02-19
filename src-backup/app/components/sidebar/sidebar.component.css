@@ -1,0 +1,62 @@
+.site-menubar {
+    background: #FFFFFF ;
+    width: 130px !important;
+    text-align: center;
+
+}
+.site-menu>.site-menu-item>a {
+    color:#192D52;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 1px solid #fff;
+}
+
+li.site-menu-item.active a span{
+   color:#fff;
+}
+
+.site-menu[_ngcontent-c2] > .site-menu-item[_ngcontent-c2] > a[_ngcontent-c2] {
+    text-align: center !important;
+    padding: 12px 10%;
+
+}
+.sidebar-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.logobenzimg{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+@media screen and (max-width:768px) {
+    .showmenu {
+        display: none;
+    }
+    .site-menu>.site-menu-item>a {
+        font-size: 9px;
+        padding-left: 54%;
+    }
+    .site-menubar {
+        width: 282px;
+    }
+}
+@media screen and (min-width:768px) {
+    .site-menubar {
+        width: 213px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .site-menubar {
+        height: calc(100% - 0.01px);
+    }
+}
+.site-menu>.site-menu-item>a {
+/* text-align: left; */
+    padding: 12px 10%;
+}
+.site-menubar {
+    position: fixed;
+    top: 0px !important;
+
+}

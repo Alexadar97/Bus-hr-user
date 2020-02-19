@@ -1,0 +1,21 @@
+
+h2.text-assessmant {
+  font-family: Roboto;
+  font-size: 30px;
+  color: #303030;
+  letter-spacing: 1.11px;
+}
+.card {
+  box-shadow: 0 0 10px 0 rgba(127,127,127,0.50);
+  width:230px;
+  cursor: pointer;
+}
+p.card-text {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #303030;
+    letter-spacing: 0.56px;
+}
+img.card-img-top {
+  height: 153px;
+}
